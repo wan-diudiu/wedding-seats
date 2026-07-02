@@ -1,0 +1,1 @@
+{"action":"evaluate","args":{"code":"(()=>{ const links = [...document.querySelectorAll('a')]; const settings = links.find(e => e.href && e.href.includes('/settings/api')); return settings ? settings.href : 'not found'; })()"},"session":"wedding-supabase"}

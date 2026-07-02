@@ -1,0 +1,1 @@
+{"action":"evaluate","args":{"code":"(()=>{ const el = [...document.querySelectorAll('a')].find(e => e.textContent.trim() === 'Settings'); return el ? el.href : 'not found'; })()"},"session":"wedding-supabase"}

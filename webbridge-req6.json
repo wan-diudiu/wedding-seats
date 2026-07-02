@@ -1,0 +1,1 @@
+{"action":"evaluate","args":{"code":"(()=>{ const editor = document.querySelector('.monaco-editor textarea') || document.querySelector('textarea') || document.querySelector('[role=\"textbox\"]'); if(editor) { editor.focus(); return 'found'; } return 'not found'; })()"},"session":"wedding-supabase"}

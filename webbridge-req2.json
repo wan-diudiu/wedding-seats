@@ -1,0 +1,1 @@
+{"action":"evaluate","args":{"code":"(()=>{ return [...document.querySelectorAll('a')].slice(0,30).map(e => ({text:e.textContent.trim().slice(0,50),href:e.href})); })()"},"session":"wedding-supabase"}
