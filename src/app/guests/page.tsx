@@ -56,7 +56,7 @@ export default function GuestsPage() {
             guests={guests}
             loading={loading}
             onDelete={deleteGuest}
-            onUnassign={(id) => assignSeat(id, null, null)}
+            onUnassign={async (id) => { await assignSeat(id, null, null); }}
             tables={tables}
           />
         </TabsContent>
